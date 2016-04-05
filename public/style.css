@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'sketch';
+    src: url('fonts/KGBrokenVesselsSketch.ttf');
+}
+
+@font-face {
+    font-family: 'grotesk';
+    src: url('fonts/Typo Grotesk Rounded Demo.otf');
+}
+
+h1 {
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'sketch';
+    font-size: 55px;
+    color: #0033cc;
+}
+
+table {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 6px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: 'sketch';
+    font-size: 55px; 
+}
+
+tr:first-child > td {
+    border-top: none; 
+}
+
+tr:nth-child(3) > td {
+    border-bottom: none; 
+}
+
+tr > td:first-child {
+    border-left: none; 
+}
+
+tr > td:nth-child(3) {
+    border-right: none; 
+}
+
+.sweet-alert,
+.sweet-alert > h2 {
+    font-family: 'grotesk';
+}
